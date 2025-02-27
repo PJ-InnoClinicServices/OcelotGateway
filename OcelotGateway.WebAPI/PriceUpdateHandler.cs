@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
-public class PriceUpdateHandler : DelegatingHandler
+
+namespace OcelotGateway;
+public abstract class PriceUpdateHandler : DelegatingHandler
 {
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {

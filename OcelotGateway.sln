@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{BC437ED6-2D13-40C0-8FF8-6F9656E8DC99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway.WebAPI", "OcelotGateway.WebAPI\OcelotGateway.WebAPI.csproj", "{BC437ED6-2D13-40C0-8FF8-6F9656E8DC99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
