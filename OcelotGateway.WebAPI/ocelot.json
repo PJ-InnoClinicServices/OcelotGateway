@@ -1,0 +1,22 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/drugs",  
+      "DownstreamScheme": "http",              
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", 
+          "Port": 5105          
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/drugs",    
+      "UpstreamHttpMethod": ["GET"],
+      "DelegatingHandlers": [
+        "PriceUpdateHandler"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5113"       
+  }
+}
