@@ -1,27 +1,8 @@
 {
-  
-  "Routes": [
-
-    {
-      "DownstreamPathTemplate": "/api/reviews",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5252
-        }
-      ],
-      "UpstreamPathTemplate": "/ocelot/reviews",
-      "UpstreamHttpMethod": [ "Get" ]
-    }
-    
-  ],
-  
-  
+  "Routes": [],
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:5113"
   }
-  
 }
 
 

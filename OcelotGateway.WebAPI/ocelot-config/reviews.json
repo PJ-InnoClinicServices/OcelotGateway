@@ -2,27 +2,15 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/reviews",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 5252
         }
       ],
-      "UpstreamPathTemplate": "/api/reviews",
-      "UpstreamHttpMethod": ["GET", "POST"]
-    },
-    {
-      "DownstreamPathTemplate": "/api/reviews/{id}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5252
-        }
-      ],
-      "UpstreamPathTemplate": "/api/reviews/{id}",
-      "UpstreamHttpMethod": ["GET", "PUT", "DELETE"]
+      "UpstreamPathTemplate": "/ocelot/reviews",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ]
 }
