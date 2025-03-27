@@ -2,6 +2,7 @@
   "Routes": [
     
     
+    
     {
       "DownstreamPathTemplate": "/api/reviews",
       "DownstreamScheme": "https",
@@ -14,6 +15,9 @@
       "UpstreamPathTemplate": "/ocelot/reviews",
       "UpstreamHttpMethod": [ "Get" ]
     },
+    
+    
+    
     
     
     {
@@ -29,7 +33,6 @@
       "UpstreamHttpMethod": [ "POST"]
     },
     
-    
     {
       "DownstreamPathTemplate": "/api/reviews/{id}",
       "DownstreamScheme": "https",
@@ -42,7 +45,6 @@
       "UpstreamPathTemplate": "/ocelot/reviews/{id}",
       "UpstreamHttpMethod": ["GET", "PUT", "DELETE"]
     }
-    
     
   ]
 }
