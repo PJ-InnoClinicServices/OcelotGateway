@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8085
+          "Host": "appointments-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/appointments/all",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8085
+          "Host": "appointments-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/appointments/filter",
@@ -29,8 +29,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8085
+          "Host": "appointments-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/appointments/{id}",
@@ -41,8 +41,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8085
+          "Host": "appointments-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/appointments",

@@ -1,0 +1,8 @@
+﻿services:
+  ocelotgateway.webapi:
+    image: ocelot-api-gateway
+    build:
+      context: .
+      dockerfile: OcelotGateway.WebAPI/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Container

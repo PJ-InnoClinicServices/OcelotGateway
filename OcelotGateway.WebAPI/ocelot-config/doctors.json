@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8086
+          "Host": "users-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/doctors",
@@ -28,8 +28,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 8086
+          "Host": "users-microservice",
+          "Port": 8080
         }
       ],
       "UpstreamPathTemplate": "/ocelot/api/doctors/{id}",
